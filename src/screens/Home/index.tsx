@@ -61,9 +61,7 @@ export function Home() {
   function handleBack() {
     if (!eventName) {
       setEventValid(0);
-      console.log("back", "if");
     } else {
-      console.log("back", "else");
       setEventValid(1);
     }
   }
